@@ -1,3 +1,8 @@
+2016-09-02  Akash Trehan  <akash.trehan123@gmail.com>
+
+	* remote-utils.c (relocate_instruction): Remove redundant strcpy()
+	call writing data to own_buf.
+
 2016-08-25  Adhemerval Zanella  <adhemerval.zanella@linaro.org>
 
 	PR server/20491
